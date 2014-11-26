@@ -1,0 +1,17 @@
+commit 8286277de25ca3e254800f7d856b56be7d4f4d3c
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 12:07:57 2014 -0600
+
+    base
+
+commit 89daa6268b187cfa1963f80a22be120a6bf4ac6a
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 12:04:39 2014 -0600
+
+    Base
+
+commit 7e045e87c552bf74382c3b33b2750e3d59fb732e
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 12:03:22 2014 -0600
+
+    :octocat: Added .gitattributes & .gitignore files
