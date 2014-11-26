@@ -1,3 +1,9 @@
+commit 9810769b9d29e1a2b7ac8d22aa05ee3a4504d0dd
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 13:18:11 2014 -0600
+
+    Base lista completa
+
 commit 8286277de25ca3e254800f7d856b56be7d4f4d3c
 Author: agasca <profesorweb@yahoo.com>
 Date:   Wed Nov 26 12:07:57 2014 -0600
