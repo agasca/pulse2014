@@ -1,3 +1,63 @@
+commit 6c515f701216ff6f2fc35fb1e788a097c4def379
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 3 22:58:11 2014 -0600
+
+    finDisenio Elastico, previo a Responisve Design
+
+commit 72a6218bfd08f327a486949f51977807eefba0e3
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 3 21:59:28 2014 -0600
+
+    Continuacion inspeccionar elemento
+
+commit 80960f40fa6e48073d0d8a83a246b6fd343a219d
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Nov 27 18:04:15 2014 -0600
+
+    fontsquirrel local
+
+commit fe2dcbe6dadf2d6efbda7c2af774a3fcd61c3ac2
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Nov 27 18:01:51 2014 -0600
+
+    webFonts
+
+commit 74e5a37d00547e73cfac66f486711d2c2104003a
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Nov 27 17:48:35 2014 -0600
+
+    milestone
+
+commit 2dcb60a273f25d450f9512a92d5b16a7ce789176
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Nov 27 00:17:21 2014 -0600
+
+    Css3 PreAfinado
+
+commit cf012b388cc14f8f6aa98800a77b1408f6a24dce
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 22:02:47 2014 -0600
+
+    EstructuraSemanticaPrevioCss
+
+commit 03ac7dbe6a6429804785b9a35458e5eb7aab40b3
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 22:00:26 2014 -0600
+
+    Previo Css3
+
+commit 110339dcda36ead737dfb87444b3e756bce970ab
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 21:59:24 2014 -0600
+
+    Previo CSS3
+
+commit f4114565d4ec1080ecada777874a9d1468aadc5a
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Nov 26 13:20:05 2014 -0600
+
+    Base commits
+
 commit 9810769b9d29e1a2b7ac8d22aa05ee3a4504d0dd
 Author: agasca <profesorweb@yahoo.com>
 Date:   Wed Nov 26 13:18:11 2014 -0600
