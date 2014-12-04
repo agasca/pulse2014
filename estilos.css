@@ -49,12 +49,19 @@ etiqueta{
 
 .icon-pencil:before {
 	content: "\e601";
+	margin-right: 0.8em;
 }
 .icon-star:before {
 	content: "\e602";
+	color: #FFBE2C;
+	margin-right: 0.4em;
+	/*margin-top: 0.8em;*/
+	position: relative;
+	top: 0.1em;
 }
 .icon-arrow-down:before {
 	content: "\e604";
+	color: #DD4F24;
 }
 .icon-arrow-up:before {
 	content: "\e605";
@@ -117,11 +124,12 @@ header #logo img {
 }
 nav {
 	background: #80BCA3;
-	padding: 0 0.5em;
-	position: relative;;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	padding: 0 7em 0 0; /*0 0.5em*/
+	position: relative;
 }
 nav ul {
-	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+	/*box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;*/
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -204,6 +212,9 @@ nav ul li a {
 	position: absolute;
 	top: 100%;
 	width: 95%;
+}
+#contenido .item .votacion a {
+	text-decoration: none;
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item {
