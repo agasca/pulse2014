@@ -5,7 +5,7 @@
 	<meta name="description" content="Nota: max 160 chars debe ser diferente en cada pagina" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	<title>Nota: max 160 chars debe ser diferente en cada pagina</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
 	<script src="prefixfree.js"></script>
@@ -28,7 +28,7 @@
 			<li><a href="#">Python</a></li>
 			<li><a href="#">Python</a></li>
 			<li id="publicar_nav" >
-				<a href="#" class="icon-pencil">Publicar</a>
+				<a href="#" class="icon-pencil" id="mostrar-form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
@@ -39,8 +39,8 @@
 		<label for="url">Link:</label>
 		<input type="url" id="url" required>
 		-->
-		<input type="text" class="formulario" required placeholder="Titulo" >
-		<input type="url"  class="formulario" required placeholder="Link" >
+		<input type="text" id="titulo" required placeholder="Titulo" >
+		<input type="url"  id="url" required placeholder="Link" >
 		<input type="submit" value="Agregar">
 	</form>
 
@@ -207,7 +207,7 @@
 			pegoga.com
 		</p>
 	</footer>
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="formulario.js"></script>
 </body>
 </html>
