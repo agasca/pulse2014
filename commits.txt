@@ -1,3 +1,27 @@
+commit f72b873ae522e18a867741fc243cd8c1110dd008
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 21:50:37 2014 -0600
+
+    JScript: formulario escondido
+
+commit 3f2c301856925661f5331020859bf12a33a90ea2
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 21:26:01 2014 -0600
+
+    JScript: formulario
+
+commit 20b8549a13222ef1e4c8ce9cbcac8b57fb4b5bb9
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 20:03:43 2014 -0600
+
+    JScript inicio
+
+commit 5d7d61824b655c029e8f8f9108227d1377b4e2b9
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 19:42:47 2014 -0600
+
+    Fin elastico, responsive design, mobile first, css. OK
+
 commit 2aa7128258510ccb27d998717c0c4ad30be3cb8e
 Author: agasca <profesorweb@yahoo.com>
 Date:   Thu Dec 4 18:27:19 2014 -0600
