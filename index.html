@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="estilos.css">
 	<script src="prefixfree.js"></script>
 </head>
-<body>
+<body style>
 	<header>
 		<figure id="logo">
 			<img src="logo.png" />
@@ -32,15 +32,15 @@
 			</li>
 		</ul>
 	</nav>
-	<form action="" id="formulario">
+	<form action="" id="formulario" class="formulario">
 		<!--opcion label
 		<label for="titulo">Titulo:</label>
 		<input type="text" id="titulo" required>
 		<label for="url">Link:</label>
 		<input type="url" id="url" required>
 		-->
-		<input type="text" placeholder="Ingresa tu clave" id="titulo" required>
-		<input type="url" placeholder="Link" id="url" required>
+		<input type="text" class="formulario" required placeholder="Titulo" >
+		<input type="url"  class="formulario" required placeholder="Link" >
 		<input type="submit" value="Agregar">
 	</form>
 
