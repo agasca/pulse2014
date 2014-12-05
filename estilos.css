@@ -148,7 +148,7 @@ header #logo {
 	margin-right: : 0.5em;
 }
 header #logo img {	
-	
+	border-radius: 5%;
 	margin-right: : 0.5em;
 	padding-right: 0.5em;
 	/*-webkit-transition: 0.5s;	prefijo*/
