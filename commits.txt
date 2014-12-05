@@ -1,3 +1,15 @@
+commit 2aa7128258510ccb27d998717c0c4ad30be3cb8e
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 18:27:19 2014 -0600
+
+    Fin elastico, responsive design, mobile first, css.
+
+commit bb30de99bf59c1a360812a4f21d6e90524d4071a
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 18:16:54 2014 -0600
+
+    Fin elastico, responsive design, mobile first, css
+
 commit e16ad7e6492c09661b0b265d3759c6ad64dcf82f
 Author: agasca <profesorweb@yahoo.com>
 Date:   Thu Dec 4 00:50:31 2014 -0600
