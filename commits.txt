@@ -1,3 +1,9 @@
+commit e16ad7e6492c09661b0b265d3759c6ad64dcf82f
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 00:50:31 2014 -0600
+
+    Responsive design con transiciones conlcuido
+
 commit 5ca8358c471879805b56d254d922b37488a65baf
 Author: agasca <profesorweb@yahoo.com>
 Date:   Thu Dec 4 00:12:57 2014 -0600
