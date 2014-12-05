@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
 	<script src="prefixfree.js"></script>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body style>
 	<header>
@@ -200,14 +201,15 @@
 		</article>		
 	</section>
 	<footer>
-		<p>
-			<strong>Powered by</strong>
-		</p>
-		<p>
-			pegoga.com
-		</p>
+		<button id="boton-fondo" onclick="myFunction()"><strong>Powered by</strong></button>
+			<p id="demo">click button</p>
 	</footer>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="formulario.js"></script>
+	<script>
+	    function myFunction(){
+	        document.getElementById("demo").innerHTML="pegoga.com";
+	    }
+</script>	
 </body>
 </html>
