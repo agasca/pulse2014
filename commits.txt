@@ -1,3 +1,39 @@
+commit b692082227453348f879cec497d9176c13569e6e
+Author: agasca <profesorweb@yahoo.com>
+Date:   Mon Dec 8 10:30:01 2014 -0600
+
+    Fin javascript
+
+commit d84b6138802066735c4b614ee853bd83a2507d72
+Author: agasca <profesorweb@yahoo.com>
+Date:   Fri Dec 5 15:46:18 2014 -0600
+
+    Fin Jquery parte 1. ok
+
+commit e4a7dc7c0c913e889fdd4ad0318901a3aba9fc76
+Author: agasca <profesorweb@yahoo.com>
+Date:   Fri Dec 5 15:45:30 2014 -0600
+
+    Fin Jquery parte 1. ok
+
+commit fdef5a89c677ee4517dfe8bf2371755d8e837712
+Author: agasca <profesorweb@yahoo.com>
+Date:   Fri Dec 5 11:58:47 2014 -0600
+
+    Fin Jquery parte 1
+
+commit c6c253178d6766b67613c042dba15c83bee4e739
+Author: agasca <profesorweb@yahoo.com>
+Date:   Fri Dec 5 10:45:44 2014 -0600
+
+    Inicio Jquery
+
+commit f6299997c99373ed14105e1afa8bb0c201f455b9
+Author: agasca <profesorweb@yahoo.com>
+Date:   Thu Dec 4 21:54:29 2014 -0600
+
+    commits
+
 commit f72b873ae522e18a867741fc243cd8c1110dd008
 Author: agasca <profesorweb@yahoo.com>
 Date:   Thu Dec 4 21:50:37 2014 -0600
