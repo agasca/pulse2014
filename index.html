@@ -5,7 +5,6 @@
 	<meta name="description" content="Nota: max 160 chars debe ser diferente en cada pagina" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	<title>Nota: max 160 chars debe ser diferente en cada pagina</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
 	<script src="prefixfree.js"></script>
@@ -202,7 +201,7 @@
 	</section>
 	<footer>
 		<button id="boton-fondo" onclick="myFunction()"><strong>Powered by</strong></button>
-			<p id="demo">click button</p>
+			<p id="demo">click Agergar</p>
 	</footer>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="formulario.js"></script>
@@ -210,6 +209,26 @@
 	    function myFunction(){
 	        document.getElementById("demo").innerHTML="pegoga.com";
 	    }
-</script>	
+
+	    //eventos jscript dentro de html
+	    window.onload = function(){
+	    	console.log ("evento onLoad");
+	    }
+
+	    //equivalentes las dos debajo; Jquery lo carga antes de que el script de JS
+	    $(document).on('ready', function(){
+	    	console.log ("DOMContentLoaded");
+	    });
+
+	    $(function(){
+	    	console.log ("DOMContentLoaded abreviada");
+	    });
+
+	    $(function(){
+	    	$('#publicar_nav a').on('click', function(){
+	    		$(this).toggleClass('disabled');
+	    	});
+	    });
+</script>
 </body>
 </html>

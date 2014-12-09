@@ -22,7 +22,7 @@ etiqueta{
 
 }
 */
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @font-face {
 	font-family: 'icomoon';
 	src:url('fuentes/icomoon.eot?r9uinn');
@@ -217,6 +217,10 @@ nav ul li a {
 	padding: 0.5em;
 	/*-webkit-transition:0.3s;	prefijo*/
 	transition:0.3s;
+}
+nav ul #publicar_nav a.disabled{
+	background-color: grey;
+	box-shadow: none;
 }
 aside{
 	display: none;
