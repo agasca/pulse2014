@@ -1,3 +1,21 @@
+commit 70e9d904a4dda02d23f7b9a0bf3ed84a9b97cdaa
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 10 10:09:55 2014 -0600
+
+    previo geolocalizacion
+
+commit 5ad7969715daf518af0b61e49f67f10ce5e43dc3
+Author: agasca <profesorweb@yahoo.com>
+Date:   Mon Dec 8 18:38:37 2014 -0600
+
+    jQuery Sessions
+
+commit 015bff156f9fa2f75dfdd1e5490080cda17e1862
+Author: agasca <profesorweb@yahoo.com>
+Date:   Mon Dec 8 10:42:54 2014 -0600
+
+    jQuery, métodos de almacenamiento y JSON
+
 commit b692082227453348f879cec497d9176c13569e6e
 Author: agasca <profesorweb@yahoo.com>
 Date:   Mon Dec 8 10:30:01 2014 -0600
