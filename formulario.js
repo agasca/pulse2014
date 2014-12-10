@@ -5,6 +5,27 @@ $(function(){
 })
 */
 
+/*Existe localStorage? 
+if('localStorage' in window && window['localStorage'] !== null) {
+    //alert('Genial, tenemos un navegador decente que soporta LocalStorage');
+	//var storage = localStorage
+	localStorage.saludo = 'Genial, tenemos un navegador decente que soporta LocalStorage';
+	valor = localStorage.saludo;
+} else {
+    alert('Como seguimos utilizando un navegador viejo, Santa Claus no nos traerá nada esta Navidad');
+}
+*/
+
+// Existe localStorage? 
+var storage;
+try {
+    if (localStorage.getItem) {
+        storage = localStorage;
+    }
+} catch(e) {
+    storage = {};
+}
+
 var $form = $('#formulario'),
 	$titulo = $('#titulo'),
 	$url = $('#url'),
