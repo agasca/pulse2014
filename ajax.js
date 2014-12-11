@@ -44,7 +44,7 @@ function obtenerGeoInformacion(lat, lon){
 	$.ajax({
 		url: base_url+"q="+query,
 		dataType : 'jsonp',
-		jsonCallBack : 'procesarGeoInfo',
+		jsonpCallback : 'procesarGeoInfo',
 		data : {
 			format : 'json'
 		}
@@ -52,5 +52,12 @@ function obtenerGeoInformacion(lat, lon){
 }
 
 function procesarGeoInfo(datos){
-	console.log(datos);
+	//console.log(datos);
+	var res = datos.query.results.Result;
+	var barrio = res.neighborhood;
+	var ciudad = res.city;
+	var pais = res.country;
+
+	$('#geo')
+		.append('<p><strong>'+barrio+'</strong></br>'+barrio+','+ciudad+'</p>');
 }
