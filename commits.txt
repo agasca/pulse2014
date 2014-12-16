@@ -1,3 +1,39 @@
+commit 88a85a089f0d1b362761365875667da2fc7e20bc
+Author: agasca <profesorweb@yahoo.com>
+Date:   Tue Dec 16 14:25:36 2014 -0600
+
+    jquery json
+
+commit ded150be373798ff83cfb762d69d5b4802ba249a
+Author: agasca <profesorweb@yahoo.com>
+Date:   Tue Dec 16 12:53:36 2014 -0600
+
+    Final Html, Ajax, Jquery
+
+commit 897784b31d0f73335c93881f8d97145c82e4527c
+Author: agasca <profesorweb@yahoo.com>
+Date:   Tue Dec 16 12:37:48 2014 -0600
+
+    temperatura
+
+commit 9a5427caae837e4d489b106dbac1971eddc9f470
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 10 19:03:06 2014 -0600
+
+    geolocalizacion ajax cont
+
+commit 16567fbd2571972bfda536819aac65f4998fb8cf
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 10 18:47:54 2014 -0600
+
+    geolocalizacion ajax
+
+commit 4035ee7b1bf74dca8ee51d814372e439e23f3702
+Author: agasca <profesorweb@yahoo.com>
+Date:   Wed Dec 10 13:58:22 2014 -0600
+
+    geolocalizacion previo ajax
+
 commit 70e9d904a4dda02d23f7b9a0bf3ed84a9b97cdaa
 Author: agasca <profesorweb@yahoo.com>
 Date:   Wed Dec 10 10:09:55 2014 -0600
