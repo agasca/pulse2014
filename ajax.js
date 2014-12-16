@@ -94,7 +94,18 @@ function procesarClima(datos){
 	var clima = datos.query.results.channel;
 	var temp = clima.item.condition.temp;
 	var unit = clima.units.temperature;
+	var cond = clima.item.condition.code
+	var img = new Image();
+	img.src = "http://l.yimg.com/a/i/us/we/52/"+cond+".gif"
 
+	//console.log(clima);
+	//opcion 1
 	$('#clima')
+		.append(img)
 		.append(temp+' '+unit+'°')
+	//opcion 2
+	
+	$('#clima')
+		.append(clima.item.description);
+	
 }
