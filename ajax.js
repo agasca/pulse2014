@@ -104,8 +104,8 @@ function procesarClima(datos){
 		.append(img)
 		.append(temp+' '+unit+'°')
 	//opcion 2
-	
+	/*
 	$('#clima')
 		.append(clima.item.description);
-	
+	*/
 }
