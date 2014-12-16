@@ -38,9 +38,11 @@ function obtenerGeoInformacion(lat, lon){
 	//console.log(lat, lon);
 	var query = 'select * from geo.placefinder where text = "'+lat+','+lon+'" and gflags = "R"';
 	//console.log(query);
-	query = encodeURIComponent(query);
+	query = encodeURIComponent(query);	//administra espacios para mejor lectura del navegador
 	//console.log(query);
 
+
+	//funcion que viene envuelta el objeto es jsonCallback
 	$.ajax({
 		url: base_url+"q="+query,
 		dataType : 'jsonp',
@@ -51,13 +53,48 @@ function obtenerGeoInformacion(lat, lon){
 	});
 }
 
+
+
+
 function procesarGeoInfo(datos){
 	//console.log(datos);
 	var res = datos.query.results.Result;
 	var barrio = res.neighborhood;
 	var ciudad = res.city;
 	var pais = res.country;
+	var woeid = res.woeid;
 
 	$('#geo')
-		.append('<p><strong>'+barrio+'</strong></br>'+barrio+','+ciudad+'</p>');
+		.prepend('<p><strong>'+barrio+'</strong></br>'+pais+','+ciudad+'</p>');
+	obtenerClima(woeid);
+}
+
+function obtenerClima(woeid){
+	//console.log(lat, lon);
+	var query = 'select * from weather.forecast where woeid = "'+woeid+'" and u="c"';
+	//console.log(query);
+	query = encodeURIComponent(query);	//administra espacios para mejor lectura del navegador
+	//console.log(query);
+
+
+	//funcion que viene envuelta el objeto es jsonCallback
+	$.ajax({
+		url: base_url+"q="+query,
+		dataType : 'jsonp',
+		jsonpCallback : 'procesarClima',
+		data : {
+			format : 'json'
+		}
+	});
+}
+
+function procesarClima(datos){
+	//console.log(datos);
+	//debajo viene de la estructura console
+	var clima = datos.query.results.channel;
+	var temp = clima.item.condition.temp;
+	var unit = clima.units.temperature;
+
+	$('#clima')
+		.append(temp+' '+unit+'°')
 }
